@@ -18,8 +18,8 @@ class Ball{
     fill(255);
 }
 void move(){
-  x-=xSpeed;
-  y-=ySpeed;
+  x+=xSpeed;
+  y+=ySpeed;
   if(x<size/2||x>width-size/2){
     xSpeed*=-1;
   }
