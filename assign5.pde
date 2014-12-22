@@ -32,7 +32,7 @@ int status;
           
  case GAME_START:
  textAlign(CENTER,CENTER);
- textSize(40);
+ textSize(90);
  text("Press ENTER to START",320,240); 
     break;
     case GAME_PLAYING:
@@ -58,13 +58,13 @@ int status;
        
        case GAME_WIN:
         textAlign(CENTER,CENTER);
-        textSize(40);
+        textSize(90);
  text("WINNER",320,240);
   break;
   
   case GAME_LOSE:
    textAlign(CENTER,CENTER);
-  textSize(40);
+  textSize(90);
 text("You Lose",320,240);
      break;
      }
@@ -154,4 +154,3 @@ void changeColor(){
     }
   }
 }
-
