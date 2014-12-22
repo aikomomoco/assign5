@@ -31,7 +31,7 @@ int status;
         switch(status) {
           
  case GAME_START:
- textAlign(CENTER,CENTER);
+ textAlign(CENTER);
  textSize(60);
  text("Press ENTER to START",320,240); 
     break;
@@ -57,13 +57,13 @@ int status;
        break;
        
        case GAME_WIN:
-        textAlign(CENTER,CENTER);
+        textAlign(CENTER);
         textSize(60);
  text("WINNER",320,240);
   break;
   
   case GAME_LOSE:
-   textAlign(CENTER,CENTER);
+   textAlign(CENTER);
   textSize(60);
 text("You Lose",320,240);
      break;
