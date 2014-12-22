@@ -7,8 +7,8 @@ int space=30;
  void display(){
    for(int i=0; i<50;i++){
     int rectInRow=5;
-   int row=i/rectInRow;
-  int col=i%rectInRow;
+   int row=int (i/rectInRow);
+  int col=int(i%rectInRow);
     int ix=200;
    int iy=50;
      int x=ix+row*space;
